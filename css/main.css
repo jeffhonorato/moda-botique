@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #892F36;
+}
+
+.logo {
+  width: 7rem;
+  margin-left: 1rem;
+}
+
+.nav__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav__itens {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav__itens--underline {
+  border-bottom: 2px solid #fff;
+}
+
+.marcas__img {
+  width: 8rem;
+}
+
+.marcas__bloco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
