@@ -57,3 +57,24 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+.promo__bloco__masc {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.card__promo__masc__img {
+  height: 5.75rem;
+  cursor: pointer;
+  margin: 10px 0px;
+  opacity: 0.6;
+}
+
+.card__promo__masc__img:hover {
+  opacity: 1;
+}
+
+.container__masc__img {
+  height: 25rem;
+}
