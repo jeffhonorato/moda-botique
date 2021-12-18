@@ -58,6 +58,10 @@ img {
   justify-content: center;
 }
 
+.promo_bloco__container {
+  display: flex;
+}
+
 .promo__bloco__masc {
   display: flex;
   gap: 1.5rem;
@@ -77,4 +81,9 @@ img {
 
 .container__masc__img {
   height: 25rem;
+}
+
+.info__card__modal {
+  width: 375px;
+  background-color: aqua;
 }

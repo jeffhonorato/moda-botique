@@ -2,7 +2,7 @@
 
 function mudarImagem(imgPequena) {
     let imagemGrande = document.querySelector(".container__masc__img")
-    imagemGrande.getAttribute("src") = imgPequena.getAttribute("src");
+    imagemGrande.getAttribute() = imgPequena.getAttribute();
 }
 
 addEventListener("click", mudarImagem);
