@@ -47,8 +47,13 @@ img {
   border-bottom: 2px solid #fff;
 }
 
-.slider__box {
+.slider {
+  padding: 1rem;
+}
+
+.slider-glider {
   display: flex;
+  width: 1024px;
 }
 
 .promocao__titulo {
