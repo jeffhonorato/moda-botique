@@ -1,5 +1,23 @@
+.promocao__titulo {
+    font-family: $fonte-subtitulos;
+    font-size: $size-subtitulo;
+    text-align: center;
+    margin: 1rem 0rem; 
+}
+
+.promocao__info {
+    font-family: $fonte-corpo;
+    font-size: $size-corpo;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+
 .promo_bloco__container {
     display: flex;
+    justify-content: space-around;
 }
 
 .promo__bloco__masc {
@@ -19,11 +37,16 @@
     opacity: 1;
 }
 
+// .container__masc {
+//     // width: 100%;
+//     height: 25rem;
+// }
+
 .container__masc__img {
     height: 25rem;
 }
 
 .info__card__modal {
-    width: 375px;
+    text-align: center;
     background-color: aqua;
 }

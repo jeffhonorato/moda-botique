@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Vujahday+Script&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Loja Botique</title>
@@ -37,11 +38,117 @@
         </div>
     </header>
 
+    <section class="slider">
+        <div class="slider__box js-slider">
+            <figure class="slider__box__figure">
+                <img src="./images/slider/slider-1.jpg" alt="Foto de Moda" class="slider__box__img">
+            </figure>
+            <figure class="slider__box__figure">
+                <img src="./images/slider/slider-2.jpg" alt="Foto de Moda" class="slider__box__img">
+            </figure>
+            <figure class="slider__box__figure">
+                <img src="./images/slider/slider-3.jpg" alt="Foto de Moda" class="slider__box__img">
+            </figure>
+           <figure class="slider__box__figure">
+                <img src="./images/slider/slider-4.jpg" alt="Foto de Moda" class="slider__box__img">    
+           </figure>          
+        </div>
+
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+    </section>
+
+    <article class="promocao">
+        <h2 class="promocao__titulo">Catálogo de Promoção</h2>
+        <p class="promocao__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorum magnam cumque et. Qui accusamus esse quas ea itaque soluta odio excepturi a. Deleniti est distinctio corrupti rem facilis nam?</p>
+
+        <div class="bloco__links">
+            <a href="" class="bloco__link" id="bloco__masc">Masculino</a>
+            <a href="" class="bloco__link" id="bloco__fem">Feminino</a>
+        </div>
+       
+
+        <div class="promo__bloco">
+
+            <div class="promo_bloco__container">
+                <div>
+                    <div class="promo__bloco__masc">
+                        <div class="card__promo__masc">
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-02.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-03.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-04.jpg" alt="" class="card__promo__masc__img">
+                        </div>
+        
+                        <div class="container__masc">
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="container__masc__img">
+                        </div>
+                    </div>
+    
+                    <details class="info__card__modal">
+                        <summary class="info__card_titulo">+ Detalhes</summary>
+                        <p class="info__card_preco">De: 100,00 <span>R$: 70,00</span></p>
+                        <p class="info__card_marca">Marca: Marca Marca</p>
+                        <a href="">+info</a>
+                    </details>
+                </div>
+
+                <div>
+                    <div class="promo__bloco__masc">
+
+                        <div class="card__promo__masc">
+
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-02.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-03.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-04.jpg" alt="" class="card__promo__masc__img">
+                        </div>
+        
+                        <div class="container__masc">
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="container__masc__img">
+                        </div>
+                    </div>
+                    <details class="info__card__modal">
+                        <summary class="info__card_titulo">+ Detalhes</summary>
+                        <p class="info__card_preco">De: 100,00 <span>R$: 70,00</span></p>
+                        <p class="info__card_marca">Marca: Marca Marca</p>
+                        <a href="">+info</a>
+                    </details>
+                </div>
+
+                <div>
+                    <div class="promo__bloco__masc">
+                        <div class="card__promo__masc">
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-02.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-03.jpg" alt="" class="card__promo__masc__img">
+                            <img src="./images/promocoes/img-04.jpg" alt="" class="card__promo__masc__img">
+                        </div>
+        
+                        <div class="container__masc">
+                            <img src="./images/promocoes/img-01.jpg" alt="" class="container__masc__img">
+                        </div>
+                    </div>
+    
+                    <details class="info__card__modal">
+                        <summary class="info__card_titulo">+ Detalhes</summary>
+                        <p class="info__card_preco">De: 100,00 <span>R$: 70,00</span></p>
+                        <p class="info__card_marca">Marca: Marca Marca</p>
+                        <a href="">+info</a>
+                    </details>
+                </div>
+
+            </div>
+
+        </div>
+    </article>
+
     <section class="marcas__container">
 
         <div class="marcas">
 
-            <div class="marcas__bloco ">
+            <div class="marcas__bloco ativo">
                 <img class ="marcas__img" src="./images/marcas/marca-01.png" alt="logo marcas">
                 <img class ="marcas__img" src="./images/marcas/marca-02.png" alt="logo marcas">
                 <img class ="marcas__img" src="./images/marcas/marca-03.png" alt="logo marcas">
@@ -58,72 +165,7 @@
             </div>
         </div>
     </section>
-
-    <article class="promocao">
-        <h2>Catalogo de Promoção</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorum magnam cumque et. Qui accusamus esse quas ea itaque soluta odio excepturi a. Deleniti est distinctio corrupti rem facilis nam?</p>
-
-        <div class="bloco__links">
-            <a href="" class="bloco__link" id="bloco__masc">Masculino</a>
-            <a href="" class="bloco__link" id="bloco__fem">Feminino</a>
-        </div>
-       
-
-        <div class="promo__bloco">
-
-            <div class="promo_bloco__container">
-                <div class="promo__bloco__masc">
-
-                    <div class="card__promo__masc">
-                        <img src="./images/promocoes/img-01.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-02.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-03.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-04.jpg" alt="" class="card__promo__masc__img">
-                    </div>
-    
-                    <div class="container__masc">
-                        <img src="./images/promocoes/img-01.jpg" alt="" class="container__masc__img">
-                    </div>
-    
-                </div>
-    
-                <div class="info__card">
-                    <details class="info__card__modal">
-                        <summary class="info__card_titulo">+ Detalhes</summary>
-                        <p class="info__card_preco">De: 100,00 <span>R$: 70,00</span></p>
-                        <p class="info__card_marca">Marca: Marca Marca</p>
-                    </details>
-                </div>
-
-                <div class="promo__bloco__masc">
-
-                    <div class="card__promo__masc">
-                        <img src="./images/promocoes/img-01.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-02.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-03.jpg" alt="" class="card__promo__masc__img">
-                        <img src="./images/promocoes/img-04.jpg" alt="" class="card__promo__masc__img">
-                    </div>
-    
-                    <div class="container__masc">
-                        <img src="./images/promocoes/img-01.jpg" alt="" class="container__masc__img">
-                    </div>
-    
-                </div>
-    
-                <div class="info__card">
-                    <details class="info__card__modal">
-                        <summary class="info__card_titulo">+ Detalhes</summary>
-                        <p class="info__card_preco">De: 100,00 <span>R$: 70,00</span></p>
-                        <p class="info__card_marca">Marca: Marca Marca</p>
-                    </details>
-                </div>
-            </div>
-
-            
-
-        </div>
-    </article>
-
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
     <script src="./script.js"></script>
 
 </body>

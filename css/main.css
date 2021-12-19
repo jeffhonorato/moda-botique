@@ -15,7 +15,6 @@ ul, li {
 
 img {
   display: block;
-  max-width: 100%;
 }
 
 .header-container {
@@ -48,18 +47,28 @@ img {
   border-bottom: 2px solid #fff;
 }
 
-.marcas__img {
-  width: 8rem;
+.slider__box {
+  display: flex;
 }
 
-.marcas__bloco {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.promocao__titulo {
+  font-family: "Vujahday Script", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+.promocao__info {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .promo_bloco__container {
   display: flex;
+  justify-content: space-around;
 }
 
 .promo__bloco__masc {
@@ -84,6 +93,16 @@ img {
 }
 
 .info__card__modal {
-  width: 375px;
+  text-align: center;
   background-color: aqua;
+}
+
+.marcas__img {
+  width: 8rem;
+}
+
+.marcas__bloco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

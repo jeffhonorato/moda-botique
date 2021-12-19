@@ -1,8 +1,14 @@
-// Função Para mudar as Imagens no Modal
+// SLIDER DO CABEÇALHO 
+// Biblioteca GLIDER.JS
 
-function mudarImagem(imgPequena) {
-    let imagemGrande = document.querySelector(".container__masc__img")
-    imagemGrande.getAttribute() = imgPequena.getAttribute();
-}
+const slider = document.querySelector(".js-slider");
 
-addEventListener("click", mudarImagem);
+new Glider(slider, {
+    slidesToShow: 1,
+    dots: '#dots',
+    draggable: true,
+    arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+})
