@@ -1,9 +1,19 @@
 .slider {
-    padding: 1rem;
-
+    background-color: $cor-header
 }
+
 .slider-glider {
     display: flex;
+    height: 100vh;
+}
+
+// .slider__box__figure {
+    
+    
+// }
+
+.slider__box__img {
+    margin: 0 auto;
 }
 
 
