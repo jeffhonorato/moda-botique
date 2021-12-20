@@ -1,0 +1,100 @@
+.moda__feminina {
+    background-image: url("../images/moda-fem-section.jpg");
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+    .moda__info {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .moda__info__titulo {
+        font-family: $fonte-corpo;
+        font-size: $size-subtitulo;
+    }
+
+    .moda__info__desc {
+        font-family: $fonte-corpo;
+        font-size: $size-corpo;
+    }
+
+    .moda__info__link {
+        font-family: $fonte-corpo;
+        color: #000;
+        padding: 0.8rem;
+        background-color: $cor-section-masc;
+        font-size: 1.2rem;
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .moda__info__link:hover {
+        background-color: #000;
+        transition: all 0.6s;
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
+
+.moda__masculina {
+    background-image: url("../images/moda-masc-section.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+
+
+    .moda__info {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        padding-left: 500px;
+    }
+
+    .moda__info__titulo {
+        font-family: $fonte-corpo;
+        font-size: $size-subtitulo;
+        text-align: center;
+    }
+
+    .moda__info__desc {
+        font-family: $fonte-corpo;
+        font-size: $size-corpo;
+        text-align: end;
+        text-align: center;
+    }
+
+    .moda__info__link {
+        font-family: $fonte-corpo;
+        color: #000;
+        padding: 0.8rem;
+        background-color: $cor-section-masc;
+        font-size: 1.2rem;
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid #000;
+        text-align: center;
+    }
+
+    .moda__info__link:hover {
+        background-color: #000;
+        transition: all 0.6s;
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
+
+
+

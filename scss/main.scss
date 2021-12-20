@@ -5,7 +5,7 @@ $cor-section-masc:#C7A27C;
 $fonte-titulos: 'Yanone Kaffeesatz', sans-serif;
 $fonte-subtitulos: 'Vujahday Script', cursive;
 $fonte-corpo: 'Questrial', sans-serif;
-$size-titulo: 2.5rem;
+$size-titulo: 4rem;
 $size-subtitulo: 2.5rem;
 $size-corpo: 1.1rem;
 
@@ -15,6 +15,7 @@ $size-corpo: 1.1rem;
 @import "slider-cabecalho";
 @import "promo";
 @import "marcas";
+@import "moda-fem-masc";
 
 
 
