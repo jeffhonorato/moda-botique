@@ -105,7 +105,7 @@ img {
   color: #000;
 }
 
-.promo_bloco__container {
+.promo__bloco__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -218,19 +218,21 @@ img {
   font-size: 1.1rem;
 }
 
-.catalogo-fem {
+.catalogo__fem {
   background-color: #F6BBBF;
   box-shadow: inset 1px 1px 10px 1px #000;
+  padding-bottom: 4rem;
 }
 
-.catalogo-fem .catalogo-fem-navegacao {
+.catalogo__fem .catalogo__fem__navegacao {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: center;
+  padding: 5rem 0rem;
 }
 
-.catalogo-fem .catalogo-fem-btn {
+.catalogo__fem .catalogo__fem__btn {
   font-family: "Questrial", sans-serif;
   color: #000;
   padding: 0.8rem;
@@ -242,7 +244,93 @@ img {
   cursor: pointer;
 }
 
-.catalogo-fem .catalogo-fem-btn:hover {
+.catalogo__fem .catalogo__fem__btn:hover {
+  background-color: #000;
+  transition: all 0.6s;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.catalogo__fem__itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.catalogo__fem__itens .flex-catalogo {
+  display: flex;
+  align-items: center;
+}
+
+.catalogo__fem__itens .catalogo__item__img {
+  height: 5.75rem;
+  margin: 1rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.catalogo__fem__itens .catalogo__item__img:hover {
+  opacity: 1;
+}
+
+.catalogo__fem__itens .figure__container__img {
+  width: 300px;
+}
+
+.catalogo__fem__itens .info__fem__acordion {
+  text-align: center;
+  background-color: #892F36;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 2px solid #000;
+}
+
+.catalogo__fem__itens .info__fem__titulo {
+  cursor: pointer;
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.catalogo__fem__itens .info__fem__preco {
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.catalogo__fem__itens .info__fem__preco span {
+  text-decoration: line-through;
+}
+
+.catalogo__fem__itens .info__fem__tam {
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.catalogo__fem__itens .info__fem__marca {
+  font-family: "Questrial", sans-serif;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.catalogo__fem__itens .info__fem__link {
+  font-family: "Questrial", sans-serif;
+  color: #000;
+  padding: 0.8rem;
+  background-color: #C7A27C;
+  font-size: 1.2rem;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.catalogo__fem__itens .info__fem__link:hover {
   background-color: #000;
   transition: all 0.6s;
   color: #fff;
