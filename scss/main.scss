@@ -1,6 +1,6 @@
 
 $cor-header: #892F36;
-$cor-section-fem:#EE9480;
+$cor-section-fem: #F6BBBF;
 $cor-section-masc:#C7A27C;
 $fonte-titulos: 'Yanone Kaffeesatz', sans-serif;
 $fonte-subtitulos: 'Vujahday Script', cursive;
@@ -14,8 +14,8 @@ $size-corpo: 1.1rem;
 @import "header";
 @import "slider-cabecalho";
 @import "promo";
-@import "marcas";
 @import "moda-fem-masc";
+@import "marcas";
 
 
 

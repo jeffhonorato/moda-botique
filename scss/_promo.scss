@@ -1,8 +1,13 @@
+.promocao {
+    padding-bottom: 4rem;
+}
+
 .promocao__titulo {
     font-family: $fonte-subtitulos;
     font-size: $size-titulo;
     text-align: center;
     margin: 1rem 0rem; 
+    // cursor: pointer;
 }
 
 .promocao__info {
@@ -30,6 +35,7 @@
     box-shadow: 1px 1px 10px 1px #000;
     color: #fff;
     border-radius: 10px;
+    
 }
 
 .bloco__link:hover {
@@ -80,11 +86,13 @@
     border-radius: 4px;
     border: 2px solid #000;
     
+    
         .info__card__titulo {
             font-family: $fonte-corpo;
             color: #fff;
             padding: 1rem;
             font-size: 1.2rem;
+            cursor: pointer;
         }
 
         .info__card__preco {

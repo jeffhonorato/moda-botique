@@ -24,25 +24,67 @@
             font-size: $size-corpo;
         }
 
-        .moda__info__link {
+        // .moda__info__link {
+        //     font-family: $fonte-corpo;
+        //     color: #000;
+        //     padding: 0.8rem;
+        //     background-color: $cor-section-masc;
+        //     font-size: 1.2rem;
+        //     width: 200px;
+        //     margin: 0 auto;
+        //     border-radius: 10px;
+        //     border: 2px solid #000;
+        // }
+
+        // .moda__info__link:hover {
+        //     background-color: #000;
+        //     transition: all 0.6s;
+        //     color: #fff;
+        //     border: 2px solid #fff;
+        // }
+}
+
+.catalogo-fem {
+    background-color: $cor-section-fem;
+    box-shadow: inset 1px 1px 10px 1px #000;
+
+        .catalogo-fem-navegacao {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .catalogo-fem-btn {
             font-family: $fonte-corpo;
             color: #000;
             padding: 0.8rem;
             background-color: $cor-section-masc;
             font-size: 1.2rem;
-            width: 200px;
-            margin: 0 auto;
+            // width: 200px;
+            // margin: 0 auto;
             border-radius: 10px;
             border: 2px solid #000;
+            text-align: center;
+            cursor: pointer;
         }
 
-        .moda__info__link:hover {
+        .catalogo-fem-btn:hover {
             background-color: #000;
             transition: all 0.6s;
             color: #fff;
             border: 2px solid #fff;
         }
 }
+
+
+
+
+
+
+
+
+
 
 .moda__masculina {
     background-image: url("../images/moda-masc-section.jpg");
@@ -75,26 +117,25 @@
             text-align: center;
         }
 
-        .moda__info__link {
-            font-family: $fonte-corpo;
-            color: #000;
-            padding: 0.8rem;
-            background-color: $cor-section-masc;
-            font-size: 1.2rem;
-            width: 200px;
-            margin: 0 auto;
-            border-radius: 10px;
-            border: 2px solid #000;
-            text-align: center;
-        }
+        // .moda__info__link {
+        //     font-family: $fonte-corpo;
+        //     color: #000;
+        //     padding: 0.8rem;
+        //     background-color: $cor-section-masc;
+        //     font-size: 1.2rem;
+        //     width: 200px;
+        //     margin: 0 auto;
+        //     border-radius: 10px;
+        //     border: 2px solid #000;
+        //     text-align: center;
+        // }
 
-        .moda__info__link:hover {
-            background-color: #000;
-            transition: all 0.6s;
-            color: #fff;
-            border: 2px solid #fff;
-        }
+        // .moda__info__link:hover {
+        //     background-color: #000;
+        //     transition: all 0.6s;
+        //     color: #fff;
+        //     border: 2px solid #fff;
+        // }
 }
-
 
 
