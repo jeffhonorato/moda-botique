@@ -53,6 +53,9 @@
 
 }
 
+
+
+
 .promo__bloco__masc {
     display: flex;
     gap: 1.5rem;
@@ -139,5 +142,20 @@
             color: #fff;
             border: 2px solid #fff;
         }
+}
+
+@media(min-width: 0px) and (max-width:320px) {
+    .promo__bloco {
+        width: 280px;
+    }
+
+    .promo__bloco__masc {
+        display: flex;
+        gap: 0.3rem;
+    }
+
+    .container__masc__img {
+        height: 18rem;
+    }
 }
 
