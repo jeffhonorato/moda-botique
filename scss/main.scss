@@ -1,4 +1,5 @@
 
+/************ VARIAVEIS ************/
 $cor-header: #892F36;
 $cor-section-fem: #F6BBBF;
 $cor-section-masc:#C7A27C;
@@ -9,7 +10,24 @@ $size-titulo: 4rem;
 $size-subtitulo: 2.5rem;
 $size-corpo: 1.1rem;
 
+/************ MIXIN's ************/
+@mixin titulo-principal {
+    font-family: $fonte-subtitulos;
+    font-size: $size-titulo;
+    text-align: center;
+    margin: 1rem 0rem; 
+}
 
+@mixin titulo-info {
+    font-family: $fonte-corpo;
+    font-size: $size-corpo;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+/************ IMPORT's ************/
 @import "reset";
 @import "header";
 @import "slider-cabecalho";

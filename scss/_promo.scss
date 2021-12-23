@@ -3,21 +3,11 @@
 }
 
 .promocao__titulo {
-    font-family: $fonte-subtitulos;
-    font-size: $size-titulo;
-    text-align: center;
-    margin: 1rem 0rem; 
-    // cursor: pointer;
+    @include titulo-principal;
 }
 
 .promocao__info {
-    font-family: $fonte-corpo;
-    font-size: $size-corpo;
-    text-align: center;
-    max-width: 500px;
-    margin: 0 auto;
-    padding-bottom: 2rem;
-
+    @include titulo-info;
 }
 
 .bloco__links {
@@ -35,15 +25,14 @@
     box-shadow: 1px 1px 10px 1px #000;
     color: #fff;
     border-radius: 10px;
-    
+        &:hover {
+            box-shadow: 1px 1px 1px 1px $cor-section-masc;
+            transition: all 0.6s;
+            background-color: $cor-section-masc;
+            color: #000;
+        }    
 }
 
-.bloco__link:hover {
-    box-shadow: 1px 1px 1px 1px $cor-section-masc;
-    transition: all 0.6s;
-    background-color: $cor-section-masc;
-    color: #000;
-}
 
 
 .promo__bloco__container {
@@ -52,9 +41,6 @@
     justify-content: space-around;
 
 }
-
-
-
 
 .promo__bloco__masc {
     display: flex;
@@ -67,10 +53,9 @@
     cursor: pointer;
     margin: 10px 0px;
     opacity: 0.6;
-}
-
-.card__promo__masc__img:hover {
-    opacity: 1;
+        &:hover {
+            opacity: 1;
+        }
 }
 
 // .container__masc {
@@ -109,7 +94,6 @@
             }            
         }
 
-
         .info__card__tam {
             font-family: $fonte-corpo;
             color: #fff;
@@ -134,13 +118,12 @@
             margin: 0 auto;
             border-radius: 10px;
             border: 2px solid #000;
-        }
-
-        .info__card__link:hover {
-            background-color: #000;
-            transition: all 0.6s;
-            color: #fff;
-            border: 2px solid #fff;
+                &:hover {
+                    background-color: #000;
+                    transition: all 0.6s;
+                    color: #fff;
+                    border: 2px solid #fff;
+                }
         }
 }
 
