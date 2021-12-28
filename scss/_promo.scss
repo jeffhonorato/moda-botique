@@ -131,6 +131,26 @@
         }
 }
 
+.js-lista-conteudo div {
+    display: none;
+}
+
+.js-lista-conteudo div.ativo {
+    display: block;
+    animation: show 1s forwards;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 @media(min-width: 0px) and (max-width:480px) {
     .promo__bloco {
         width: 280px;
