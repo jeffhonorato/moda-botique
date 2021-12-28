@@ -1,7 +1,6 @@
 // Biblioteca GLIDER.JS
 // SLIDER DO CABEÇALHO 
 const slider = document.querySelector(".js-slider");
-
 new Glider(slider, {
     slidesToShow: 1,
     slidesToScroll: 1, 

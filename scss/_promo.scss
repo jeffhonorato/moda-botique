@@ -137,7 +137,7 @@
 
 .js-lista-conteudo div.ativo {
     display: block;
-    animation: show 1s forwards;
+    animation: show .5s forwards;
 }
 
 @keyframes show {
