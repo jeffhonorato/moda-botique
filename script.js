@@ -17,6 +17,7 @@ new Glider(slider, {
 // PROMOÇÔES 
 const miniaturaPequena = document.querySelectorAll(".js-lista-img img");
 const miniaturaGrande = document.querySelectorAll(".js-lista-conteudo div");
+
 miniaturaGrande[0].classList.add("ativo");
 
 if(miniaturaPequena.length && miniaturaGrande.length) {
